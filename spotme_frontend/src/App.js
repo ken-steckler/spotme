@@ -4,16 +4,12 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { useState } from "react";
 
 // Import Components, styles, media
-import Navigation from "./components/Navigation";
 import "./App.css";
 
 // Import Pages
 import HomePage from "./pages/HomePage";
 import AddExercisePage from "./pages/AddExercisePage";
 import EditExercisePage from "./pages/EditExercisePage";
-
-// Import Media
-import bg from "./images/jumprope.png";
 
 // Define the function that renders the content in routes using State.
 function App() {
@@ -29,7 +25,6 @@ function App() {
                 <h1>SpotMe</h1>
                 <p>Exercise tracking made easy</p>
               </div>
-              <div>{/* <img src={bg} width="30%" /> */}</div>
             </div>
           </header>
 
