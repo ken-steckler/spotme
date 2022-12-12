@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* Center the body in the middle of the viewport 
+by defining min and max widths with auto right/left margins
+*/
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: rgb(27, 27, 27);
+  background-color: #eeeeee;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* PAGE LAYOUT 
+Consistant design for each page layout block. 
+*/
+header {
+  background-color: inherit;
+  color: rgb(30, 30, 30);
+  border: none;
+  font-size: 20px;
+  font-weight: heavy;
+  text-align: center;
+  height: 130px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+footer {
+  background-color: rgb(26, 26, 26);
+  color: #eeeeee;
+  font-size: 16px;
+  border: rgb(219, 219, 219);
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  margin-top: 30px;
+  width: 100%;
+  height: 4rem;
+}
+
+footer p {
+  text-align: left;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.navigation {
+  text-align: left;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#navigation {
+  color: rgb(27, 27, 27);
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.buttons button {
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#submit {
+  background-color: #46b466;
+  color: rgb(241, 241, 241);
+  width: 110px;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px 1px rgb(219, 219, 219);
+}
+
+#cancel {
+  background-color: #f25f5f;
+  color: rgb(241, 241, 241);
+  width: 110px;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px 1px rgb(219, 219, 219);
+}
+
+#delete-btn {
+  color: #f25f5f;
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+#delete-btn:hover {
+  cursor: pointer;
+}
+
+#edit-btn {
+  color: #46b466;
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+#edit-btn:hover {
+  cursor: pointer;
+}
+
+#form {
+  width: 100%;
+  text-align: center;
+}
+
+#add {
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  background-color: inherit;
+  color: rgb(15, 15, 15);
+  border: 0;
+  padding-bottom: 30px;
+}
+
+article {
+  border-radius: 10px;
+  box-shadow: 10px;
+  padding: 30px;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(27, 27, 27);
+  background-color: rgb(248, 248, 248);
+}
+
+.space {
+  width: 100%;
+  height: 150px;
+}
+
+/* NAVIGATION
+Simple changes to make anchors look like buttons. 
+*/
+nav {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-size: 14px;
+  font-weight: 10px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: center;
+}
+nav a {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-size: 14px;
+  font-weight: 10px;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  vertical-align: center;
+}
+nav a:hover {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-size: 14px;
+  font-weight: 10px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+input {
+  font-style: inherit;
+  border: 0.5px solid rgb(92, 92, 92);
+  margin: 15px;
+  padding: 5px 10px;
+  height: 25px;
+  width: 150px;
+  border-radius: 3px;
+}
+select {
+  font-style: inherit;
+  border: 0.5px solid rgb(92, 92, 92);
+  margin: 15px;
+  padding: 5px 10px;
+  height: 35px;
+  border-radius: 3px;
+}
+
+/* TABLE */
+table {
+  border-collapse: inherit;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+caption {
+  text-align: center;
+}
+
+tr {
+  width: 100%;
+  text-align: right;
+}
+td {
+  padding: 10px;
+}
+
+#left-col {
+  text-align: left;
+}
+
+td th {
+}
+tr:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
+th {
+  text-align: right;
+}
+
+#del {
+  text-align: center;
+}
+
+#edit {
+  text-align: center;
+}
+
+/* FORM */
+fieldset {
+}
+legend {
+}
+label {
+}
+input {
+  border: 0.5px solid rgb(92, 92, 92);
+  margin: 15px;
+  padding: 5px 10px;
+  height: 25px;
+  width: 150px;
+  border-radius: 3px;
+}
+button {
+  padding: inherit;
+  font: inherit;
+}
+button:hover {
+}
