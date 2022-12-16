@@ -1,0 +1,9 @@
+{
+  "name": "spotme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build:spotme_frontend": "npm --prefix spotme_frontend run build",
+    "build:spotme_backend": "npm --prefix spotme_backend run build"
+  }
+}
