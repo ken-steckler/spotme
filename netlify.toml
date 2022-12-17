@@ -1,0 +1,12 @@
+[build]
+  command = "cd spotme_frontend && npm install && npm run build"
+  command = "cd spotme_backend && npm install && npm run build"
+  base = "frontend"
+  publish = "frontend/build"
+
+[build]
+  base = "backend"
+  publish = "backend/build"
+
+[build.environment]
+  MONGODB_CONNECT_STRING="mongodb+srv://steckk2:steckk2@cluster0.wjad4pu.mongodb.net/?retryWrites=true&w=majority"
